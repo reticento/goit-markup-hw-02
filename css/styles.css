@@ -198,3 +198,38 @@ body {
   font-weight: 500;
   color: var(--secondary-font-color);
 }
+
+/* PORFOLIO */
+
+.products {
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 188% */
+}
+
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+  
+  color: var(--black-color);
+  background-color: var(--second-accent-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--white-color);
+  background-color: var(--main-accent-color);
+}
+
+.products .name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: var(--secondary-font-color);
+}
